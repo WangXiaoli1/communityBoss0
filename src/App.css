@@ -1,0 +1,46 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("img/bg.jpg");
+    background-size: 100% 100%;
+}
+
+.app{
+    width: 100%;
+    height: 100%;
+}
+.app div:nth-of-type(1){
+    height: 2rem;
+    line-height: 2rem;
+    font-size:1rem;
+    text-align: center;
+}
+.app p:nth-of-type(1),.app p:nth-of-type(2){
+    width: 80%;
+    font-size: 0.9rem;
+    margin: 0.2rem 10%;
+
+}
+
+.app input{
+    width: 80%;
+    height: 2rem;
+    line-height: 2rem;
+    margin:1rem 10%;
+    border-radius: 0.3rem;
+    text-indent: 0.2rem;
+    outline: none;
+    border: 1px solid#A9A9A9;
+    background: rgba(255,255,255,.1);
+}
+.app span{
+    width: 30%;
+    display: inline-block;
+    height: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 2rem;
+    margin-left: 35%;
+    font-size: 1rem;
+    color: darkgrey;
+}
